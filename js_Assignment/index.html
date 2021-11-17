@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Password Strength Checker</h1>
+        <div class="container">
+            <div class="pas">
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" oninput="strengthChecker()" placeholder="Enter Password">
+                <span id="toggle" onclick="toggle()">
+                    <i class="fas fa-eye"></i>
+                </span>
+                <div id="strength-bar"></div>
+            </div>
+            <p id="msg"></p>
+            <input type="submit" value="Submit" id="submit" onclick="Submission()">
+            <br>
+            <ul class="list">
+                <li id="list1">Password should contain at least one digit(0-9).</li>
+                <li id="list2">Password should contain at least one lowercase & uppercase letter(a-z).</li>
+                <li id="list3">Password should contain at least one special character ( @, #, %, &, !, $, etc….).</li>
+                <li id="list4">Password length should be atleast of 9 characters.</li>
+            </ul>
+        </div>
+        
+    </div>
+    <!--Script-->
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
