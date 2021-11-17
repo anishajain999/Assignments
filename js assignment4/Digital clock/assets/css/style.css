@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url('/assets/font/digital-7.regular.ttf');
+  }
+body{
+    background-color: rgb(0, 0, 0);
+}
+.wrapper{
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 32px;
+    color: #6DED98;
+    
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Estonia', cursive;
+}
+#time{
+    font-size: 16px;
+    display: none;
+}
+h1{
+    color: #6DED98;
+    
+    text-decoration: underline;
+}
+ul{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    box-shadow: 4px 4px 6px #6DED98;
+    
+}
+.active{
+    background-color: #6DED98 !important;
+    border: 1px solid #6DED98 !important;
+}
+.button{
+    margin: 0 auto;
+    /* width: 20%; */
+   
+}
+button{
+    font-weight: bold;
+}
+#Time div{
+    font-family: 'digital-7', sans-serif;
+    font-size: 50px;
+}
