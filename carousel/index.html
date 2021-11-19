@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+     <script src="https://kit.fontawesome.com/2c7fc28a2f.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main mt-2">
+        <h1>Carousel</h1>
+        <div class="container-fluid mb-5">
+            <div class="wrapper" id="active">
+                <img src="assets/img/1.jpg" class="img-fluid" alt="1">
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="arrow">
+                <a class="prev " onclick="playPrev()"><i class="fas fa-angle-left "></i></a>
+                <a class="next" onclick="playNext()"><i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="row imgcontainer d-flex">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
